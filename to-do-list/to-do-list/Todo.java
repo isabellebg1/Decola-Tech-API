@@ -10,7 +10,7 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String titulo;
-    private String descricao;
-    private boolean completo;
+    private String title;
+    private String description;
+    private boolean completed;
 }
